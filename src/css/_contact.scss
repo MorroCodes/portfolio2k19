@@ -1,11 +1,12 @@
 .contact__flex a .icon{
-    color: #DDFC74;
-    fill: currentColor !important;
-    width: 66px;
-    height: 66px;
-}
-.contact__flex a .icon:hover{
     color: #fff;
+    fill: currentColor !important;
+    width: 70px;
+    height: 70px;
+    transition: 500ms ease all;
+}
+.contact__flex a:hover .icon{
+    color: #DDFC74;
 }
 .contact__flex{
     display: flex;
@@ -19,8 +20,10 @@
     margin: 15px;
     padding: 50px;
     color: #fff;
+    transition: 500ms ease all;
+
 }
-.contact__item{
+.contact__item:hover{
     background-color: rgb(58, 58, 58);
 }
 .contact__item .icon{

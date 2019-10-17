@@ -11,14 +11,14 @@
                 <a  class="work__item xxl" href="projects/template.php">
                     <div class="img" style="background: url(./img/pocket_thumb.svg) center center; background-size: cover;">
                     </div>
-                    <div class="overlay">
+                    <div class="overlay hover-in">
                         This is a project that I made in collaboration with 2 fellow students. It is a closed platform on which students with a living wage can earn additional income. 
                     </div>
                 </a>
                 <a class="work__item xl" href="projects/roamers.php">
                     <div class="img" style="background: url(./img/roamers_thumb.svg) center center; background-size: cover;">
                     </div>
-                    <div class="overlay">
+                    <div class="overlay hover-in">
                         Roamers is an adventurous brand that makes hiking more accessible for young people.
                     </div>
                 </a>
@@ -30,7 +30,7 @@
                 </a>
                 <a class="work__item xl" href="projects/chatapp.php">
                     <div class="img" style="background: url(./img/chatapp_thumb.svg) center center; background-size: cover;"></div>
-                    <div class="overlay">
+                    <div class="overlay hover-in">
                         ChatApp is a live chatapplication built using NodeJS.
                     </div>
                     </a>

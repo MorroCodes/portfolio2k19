@@ -1,20 +1,16 @@
-.hover-in{
-    transform-origin: bottom;
-    animation: hover-in .7s linear backwards;
-    animation-iteration-count: unset;
-
+.overlay.hover-in{
+    transform-origin: left bottom;
+    transform: rotateY(90deg);
+    transition: 500ms ease all;
+    border-right: 30px solid #DDFC74;
+    opacity: 0;
 }
-.hover-out{
-    transform-origin: top;
-    animation: hover-in .7s linear forwards;
-    animation-iteration-count: initial;
-    animation-direction: reverse;
+.work__grid a.work__item:hover .overlay.hover-in{
+    transform: rotateY(0deg);
+    opacity: 1;
+    border-right: 0px solid #DDFC74;
 }
 @keyframes spin{
     from{transform: rotate(60deg);}
     to {transform: rotate(200deg);}
-}
-@keyframes hover-in{
-    from{transform: rotateX(90deg);}
-    to{transform: rotateX(0deg);}
 }
