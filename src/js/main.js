@@ -11,3 +11,27 @@ const H = new Highway.Core({
         default: Fade
       }
 });
+const links = document.querySelectorAll('.nav__main a');
+H.on('NAVIGATE_IN', ({ to, location }) => {
+    // Check Active Link
+    for (let i = 0; i < links.length; i++) {
+      const link = links[i];
+  
+      // Clean class
+      link.classList.remove('selected');
+      const main = document.querySelector("main");
+      main.classList = "";
+      const split = location.href.split("/");
+      split = split.filter((el) =>{
+        if(el != ""){
+            return el;
+        }
+      });
+      main.classList.add(split[split.length-1]);
+  
+      // Active link
+      if (link.href === location.href) {
+        link.classList.add('selected');
+      }
+    }
+  });

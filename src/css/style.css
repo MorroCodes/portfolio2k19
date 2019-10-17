@@ -29,6 +29,7 @@ nav a{
     transition: 300ms ease color;
 }
 nav a.selected{
+    transition: 500ms ease color;
     color: #DDFC74;
 }
 nav a span{
@@ -95,7 +96,7 @@ h2{
     color: #fff;
     font-weight: lighter;
 }
-main.about p{
+main.about div div p{
     color: rgb(219, 219, 219);
     max-width: 500px;
     background: rgba(0, 0, 0, 0.2);
@@ -104,7 +105,7 @@ main.about p{
     border-radius: 5px;
     margin-top: 1em;
 }
-main.about p a{
+main.about div div p a{
     color: #DDFC74;
 }
 .avatar{

@@ -5,28 +5,32 @@ import Tween from 'gsap';
 // Fade
 class Fade extends Highway.Transition {
   in({ from, to, done }) {
-    // Reset Scroll
-    window.scrollTo(0, 0);
-    // Remove Old View
-    from.remove();
-    // Animation
-    Tween.fromTo(to, .5,
-      { opacity: 0 },
-      {
-        opacity: 1,
-        onComplete: done
-      }
-    );
+    Tween.fromTo(to, .4,
+      { 
+        y: "+=100em",
+        opacity: 0, 
+        
+      },{ 
+        opacity: 1, 
+        y: "0",
+        onComplete: () => {
+          done();
+        }
+      });
+      
   }
-
   out({ from, done }) {
     // Animation
-    Tween.fromTo(from, .5,
-      { opacity: 1 },
-      {
-        opacity: 0,
-        x: "+=50",
-        onComplete: done
+    Tween.fromTo(from, 0.3,
+      { 
+        opacity: 1
+      },{ 
+        y: "-=100em",
+        opacity: 0, 
+        onComplete: () => {
+          from.remove();
+          done();
+        }
       }
     );
   }
