@@ -20,5 +20,8 @@
     "presets": [
       "@babel/preset-react"
     ]
+  },
+  "dependencies": {
+    "@dogstudio/highway": "^2.1.3"
   }
 }
