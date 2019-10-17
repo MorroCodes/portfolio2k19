@@ -1,7 +1,7 @@
 <html lang="en">
 <?php require_once 'includes/head.inc.php'; ?>
-<body>
-    <div class="layout__grid">
+<body data-router-wrapper>
+    <div class="layout__grid" data-router-view="contact">
     <a href="" class="logo mobile"></a>
         <?php include 'includes/nav.inc.php'; ?>
         <main class="contact">
@@ -32,5 +32,6 @@
             </div>
         </main>
     </div>
+    <script src="js/main.js"></script>
 </body>
 </html>

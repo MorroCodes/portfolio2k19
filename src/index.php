@@ -1,9 +1,9 @@
 <html lang="en">
-<?php require_once("includes/head.inc.php"); ?>
-<body>
-    <div class="layout__grid">
+<?php require_once 'includes/head.inc.php'; ?>
+<body data-router-wrapper>
+    <div class="layout__grid" data-router-view="home">
     <a href="" class="logo mobile"></a>
-        <?php include("includes/nav.inc.php"); ?>
+        <?php include 'includes/nav.inc.php'; ?>
         <main>
             <div class="logo large desktop"></div>
             <h1>Mauro Esposito</h1>
@@ -18,5 +18,6 @@
             </div>
         </main>
     </div>
+    <script src="js/main.js"></script>
 </body>
 </html>

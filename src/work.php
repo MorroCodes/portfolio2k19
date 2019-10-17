@@ -1,7 +1,7 @@
 <html lang="en">
 <?php require_once 'includes/head.inc.php'; ?>
-<body>
-    <div class="layout__grid">
+<body data-router-wrapper>
+    <div class="layout__grid" data-router-view="work">
     <a href="" class="logo mobile"></a>
         <?php include 'includes/nav.inc.php'; ?>
         <main class="work__grid">
@@ -41,6 +41,7 @@
             </div>
         </main>
     </div>
+    <script src="js/main.js"></script>
     <script src="js/hovers.js"></script>
 </body>
 </html>
