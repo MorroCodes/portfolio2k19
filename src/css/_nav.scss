@@ -1,0 +1,89 @@
+$logo: "../img/logo-white.svg";
+nav{
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    background-color: #1E1E1E;
+    display: flex;
+    justify-content: space-evenly;
+    z-index: 100;
+}
+nav a{
+    color: #3D3D3D;
+    padding: 10px;
+    font-size: 1.5em;
+    text-align: center;
+    transition: 300ms ease color;
+}
+nav a.selected{
+    transition: 500ms ease color;
+    color: #DDFC74;
+}
+nav a span{
+    text-transform: uppercase;
+    font-size: .6em;
+    display: block;
+    visibility: hidden;
+}
+nav a:hover span{
+    visibility: visible;
+}
+nav a:hover{
+    color: white;
+}
+div.nav__main{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.icon{
+    fill: currentColor !important;
+    width: 30px;
+    height: 30px;
+    display:block;
+    margin: auto;
+}
+.logo{
+    background: url("#{$logo}") center center no-repeat;
+    width: 70px;
+    height: 70px;
+    display: block;
+}
+.logo.mobile{
+    position: fixed;
+    margin-left: 2em;
+    margin-right: auto;
+}
+@media (min-width: 700px){
+    nav{
+        position: relative;
+        width: 100%;
+        flex-wrap: wrap;
+        min-height: 100vh;
+        align-items: center;
+        align-content: space-between;
+    }
+    div.nav__main{
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+        width: 100%;
+    }
+    nav a span{
+        font-size: .45em;
+        margin-top: .2em;
+    }
+    .logo.desktop{
+        display: block;
+        width: 45px;
+        align-self: flex-start !important;
+    }
+    .sm__links{
+        display: flex;
+        flex-wrap: wrap;
+        align-self: flex-end;
+    }
+    .sm__links .icon{
+        width: 20px;
+    }
+}

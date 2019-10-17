@@ -1,0 +1,79 @@
+.work__grid{
+    display: grid;
+    grid-template-columns: 20vw 20vw 20vw 20vw;
+    grid-template-rows: 20vw 20vw 20vw 20vw 20vw 20vw 20vw;
+    grid-gap: .5vw;
+    height: 80vh;
+    overflow-y: scroll;
+    justify-items: center;
+}
+.work__grid a.work__item,
+.work__grid a.work__item__link
+{
+    height: 100%;
+    width: 100%;
+    background-color: #2D2D2D;
+    color: #fff;
+}
+.work__grid a.work__item{
+    filter: contrast(1);
+}
+.work__grid a.work__item.xl{
+    grid-row: span 2;
+    grid-column: span 2;
+}
+.work__grid a.work__item.xxl{
+    grid-row: span 4;
+    grid-column: span 4;
+}
+.work__grid a.work__item .img{
+    height: 100%;
+    width: 100%;
+}
+.work__grid a.work__item__link{
+    padding: 30%;
+    grid-row-start: 7;
+    transition: all 200ms ease;
+}
+.work__grid a.work__item .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    bottom: 0;
+    padding: 43% 2em;
+    /* opacity: 0;
+}
+.work__grid a.work__item:hover .overlay{
+    opacity: 1; */
+}
+.work__grid a.work__item__link .icon{
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    align-self: center;
+    justify-self: center;
+    transition: color 200ms ease;
+}
+.work__grid a.work__item__link:hover{
+    padding: 20%;
+    background-color: rgb(59, 59, 59);
+}
+.work__grid a.work__item__link:hover .icon{
+    color: #DDFC74;
+}
+@media (min-width: 700px){
+
+    .work__grid{
+        margin: 0;
+        height: 100vh;
+        overflow-y: auto;
+        grid-template-columns: 10vw 10vw 10vw 10vw 10vw 10vw 10vw;
+        grid-template-rows: 10vw 10vw 10vw 10vw;
+    }
+    .work__grid a.work__item__link{
+        grid-column-start: 7;
+        grid-row-start: auto;
+    }
+}
