@@ -11,17 +11,17 @@
 .contact__flex{
     display: flex;
     flex-wrap: wrap;
+    max-width: 940px;
+    margin: auto;
 }
 .contact__item{
-    max-width: 200px;
+    width: 200px;
     max-height: 200px;
-    width: 40%;
     background-color: #1E1E1E;
-    margin: 15px;
+    margin: 15px auto;
     padding: 50px;
     color: #fff;
     transition: 500ms ease all;
-
 }
 .contact__item:hover{
     background-color: rgb(58, 58, 58);

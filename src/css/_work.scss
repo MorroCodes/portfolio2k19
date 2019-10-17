@@ -6,6 +6,7 @@
     height: 80vh;
     overflow-y: scroll;
     justify-items: center;
+    margin: auto;
 }
 .work__grid a.work__item,
 .work__grid a.work__item__link
@@ -63,7 +64,7 @@
 .work__grid a.work__item__link:hover .icon{
     color: #DDFC74;
 }
-@media (min-width: 700px){
+@media (min-width: 700px) and (orientation:landscape){
 
     .work__grid{
         margin: 0;
