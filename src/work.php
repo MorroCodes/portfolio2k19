@@ -48,6 +48,5 @@
             </main>
     </div>
     <script src="js/main.js"></script>
-    <script src="js/hovers.js"></script>
 </body>
 </html>

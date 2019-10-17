@@ -8,7 +8,6 @@
     "dev": "parcel src/*/* && parcel src/*",
     "build": "parcel build src/*/* && parcel build src/*",
     "watch": "parcel watch src/*/* && parcel watch src/*"
-
   },
   "keywords": [],
   "author": "",
