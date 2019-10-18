@@ -9,7 +9,7 @@
     <meta name="keywords" content="PHP,Geel,HTML,CSS,JavaScript,Laravel,NodeJS,full-stack,web,developer,webdeveloper">
     <meta name="author" content="Mauro Esposito">
     <link href="https://fonts.googleapis.com/css?family=Barlow:300,400,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="http://localhost/portfolio2k19/dist/css/style.css">
     <link rel="shortcut icon" type="img/png" href="img/favicon.png"/>
     <?php if ($activePage != 'index'): ?>
     <title><?= ucfirst($activePage); ?> - Mauro Esposito</title>

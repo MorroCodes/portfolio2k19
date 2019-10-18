@@ -1,0 +1,1 @@
+This is a project that I made in collaboration with 2 fellow students. It is a closed platform on which students with a living wage can earn additional income. <a class="cta block" target="_blank" href="http://pocketapp.be/">Visit website</a>

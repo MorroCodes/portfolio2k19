@@ -49,6 +49,9 @@
 .work__grid a.work__item:hover .overlay{
     opacity: 1; */
 }
+.work__grid a.work__item.xl .overlay{
+    padding: 1em 1em;
+}
 .work__grid a.work__item__link .icon{
     height: 100%;
     width: 100%;
@@ -65,7 +68,7 @@
     color: #DDFC74;
 }
 @media (min-width: 700px) and (orientation:landscape){
-
+    
     .work__grid{
         margin: 0;
         height: 100vh;
@@ -76,5 +79,11 @@
     .work__grid a.work__item__link{
         grid-column-start: 7;
         grid-row-start: auto;
+    }
+    .work__grid a.work__item .overlay{
+        font-size: 1.3em;
+    }
+    .work__grid a.work__item.xl .overlay{
+        padding: 43% 2em;
     }
 }
