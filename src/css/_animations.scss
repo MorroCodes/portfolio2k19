@@ -1,14 +1,15 @@
+@import 'colors';
 .overlay.hover-in{
     transform-origin: left bottom;
     transform: rotateY(90deg);
     transition: 500ms ease all;
-    border-right: 30px solid #DDFC74;
+    border-right: 30px solid $primaryColor;
     opacity: 0;
 }
 .work__grid a.work__item:hover .overlay.hover-in{
     transform: rotateY(0deg);
     opacity: 1;
-    border-right: 0px solid #DDFC74;
+    border-right: 0px solid $primaryColor;
 }
 @keyframes spin{
     from{transform: rotate(60deg);}

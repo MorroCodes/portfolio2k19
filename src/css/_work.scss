@@ -1,3 +1,4 @@
+@import 'colors';
 .work__grid{
     display: grid;
     grid-template-columns: 20vw 20vw 20vw 20vw;
@@ -65,7 +66,7 @@
     background-color: rgb(59, 59, 59);
 }
 .work__grid a.work__item__link:hover .icon{
-    color: #DDFC74;
+    color: $primaryColor;
 }
 @media (min-width: 700px) and (orientation:landscape){
     

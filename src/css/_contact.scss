@@ -1,3 +1,4 @@
+@import 'colors';
 .contact__flex a .icon{
     color: #fff;
     fill: currentColor !important;
@@ -6,7 +7,7 @@
     transition: 500ms ease all;
 }
 .contact__flex a:hover .icon{
-    color: #DDFC74;
+    color: $primaryColor;
 }
 .contact__flex{
     display: flex;

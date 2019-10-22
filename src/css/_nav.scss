@@ -1,3 +1,4 @@
+@import 'colors';
 $logo: "http://localhost/portfolio2k19/dist/img/logo-white.svg";
 nav{
     position: fixed;
@@ -17,7 +18,7 @@ nav a{
 }
 nav a.selected{
     transition: 500ms ease color;
-    color: #DDFC74;
+    color: $primaryColor;
 }
 nav a span{
     text-transform: uppercase;

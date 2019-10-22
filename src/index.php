@@ -10,7 +10,7 @@
                 <div class="logo large desktop"></div>
                 <h1>Mauro Esposito</h1>
                 <h2>Creative Web Developer</h2>
-                <a href="work" class="cta">See my creations</a>
+                <a href="<?=$url; ?>/work/" class="cta">See my creations</a>
                 </div>
                 </div>
                 <div class="gradient"></div>
