@@ -8,7 +8,7 @@
                 <div data-router-wrapper>
                 <div data-router-view="work">
                 <div class="work__grid">
-                <a  class="work__item xxl" href="pocket">
+                <a class="work__item xxl" href="pocket">
                     <div class="img" style="background: url(<?= $url; ?>/img/pocket_thumb.svg) center center; background-size: cover;">
                     </div>
                     <div class="overlay hover-in">

@@ -27,8 +27,11 @@ H.on('NAVIGATE_IN', ({ to, location }) => {
             return el;
         }
       });
-      main.classList.add(split[split.length-1]);
-  
+      if(split[split.length-2] == "work"){
+        main.classList.add("work__detail");
+      } else {
+        main.classList.add(split[split.length-1]);
+      }
       // Active link
       if (link.href === location.href) {
         link.classList.add('selected');

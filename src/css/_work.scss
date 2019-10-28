@@ -7,14 +7,14 @@
     height: 80vh;
     overflow-y: scroll;
     justify-items: center;
-    margin: auto;
+    margin: 0 auto 2em auto;
 }
 .work__grid a.work__item,
 .work__grid a.work__item__link
 {
     height: 100%;
     width: 100%;
-    background-color: #2D2D2D;
+    background-color: #1E1E1E;
     color: #fff;
 }
 .work__grid a.work__item{
@@ -68,6 +68,28 @@
 .work__grid a.work__item__link:hover .icon{
     color: $primaryColor;
 }
+main.work__detail h2{
+    margin: 0;
+    padding: 0;
+}
+main.work__detail div div p{
+    color: rgb(219, 219, 219);
+    max-width: 800px;
+    background: rgba(0, 0, 0, 0.2);
+    padding: .7em;
+    line-height: 1.35em;
+    border-radius: 5px;
+    font-size: 1.05em;
+    margin: 1em auto;
+    text-align: left;
+}
+main.work__detail div div p a{
+    color: $primaryColor;
+}
+main.work__detail div div p img{
+    width: 100%;
+    margin: 1em auto;
+}
 @media (min-width: 700px) and (orientation:landscape){
     
     .work__grid{
@@ -86,5 +108,9 @@
     }
     .work__grid a.work__item.xl .overlay{
         padding: 43% 2em;
+    }
+    main.work__detail div div p{
+        font-size: 1.2em;
+        margin: 2em auto;
     }
 }

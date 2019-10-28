@@ -84,6 +84,7 @@ h2::after{
     animation-duration: 300s;
 }
 .stripes{
+    position: fixed;
     background: repeating-linear-gradient(
     45deg,
     transparent,
@@ -93,7 +94,7 @@ h2::after{
   );
 }
 .gradient{
-    position: absolute;
+    position: fixed;
     left: 0;
     top: 0;
     width: 100%;
@@ -109,7 +110,7 @@ h2::after{
 }
 @media (min-width: 700px){
     body{
-        overflow-y: hidden;
+        overflow-y: auto;
     }
     .layout__grid{
         display: grid;

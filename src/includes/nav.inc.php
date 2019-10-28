@@ -28,3 +28,4 @@
         </a>
     </div>
 </nav>
+<div class="clearfix__nav"></div>

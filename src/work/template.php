@@ -4,9 +4,10 @@
         <div class="layout__grid">
         <a href="" class="logo mobile"></a>
             <?php include '../includes/nav.inc.php'; ?>
-                <main class="work">
+                <main class="work__detail">
                     <div data-router-wrapper>
                     <div data-router-view="work">
+                    <h2>Template</h2>
                     <p>Here come dat boi template</p>
                     </div>
                     </div>
