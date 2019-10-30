@@ -1,6 +1,7 @@
 <html lang="en">
 <?php require_once '../includes/head.inc.php'; ?>
 <body>
+<?php require_once '../includes/tagmanager_body.php'; ?>
     <div class="layout__grid">
     <a href="" class="logo mobile"></a>
         <?php include '../includes/nav.inc.php'; ?>
