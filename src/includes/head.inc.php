@@ -17,11 +17,11 @@
     <meta name="keywords" content="PHP,Geel,HTML,CSS,JavaScript,Laravel,NodeJS,full-stack,web,developer,webdeveloper,websockets">
     <meta name="author" content="Mauro Esposito">
     <!-- Open graph tags voor Facebook etc.-->
-    <meta property="og:type" content="video.movie" />
-    <meta property="og:url" content="http://www.imdb.com/title/tt0117500/" />
-    <meta property="og:image" content="http://ia.media-imdb.com/images/rock.jpg" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://mauroesposito.be/" />
+    <meta property="og:image" content="http://mauroesposito.be/img/open_graph_image.png" />
     <link href="https://fonts.googleapis.com/css?family=Barlow:300,400,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="http://localhost/portfolio2k19/dist/css/style.css">
+    <link rel="stylesheet" href="http://mauroesposito.be/css/style.css">
     <link rel="shortcut icon" type="img/png" href="img/favicon.png"/>
     <?php if ($activePage != 'index'): ?>
     <!-- Titel aanpassen afhankelijk van naar welke pagina er word verwezen -->
@@ -31,5 +31,4 @@
     <title>Mauro Esposito</title>
     <meta property="og:title" content="Mauro Esposito" />
     <?php endif; ?>
-    
 </head>

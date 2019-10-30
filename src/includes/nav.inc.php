@@ -1,5 +1,5 @@
 <nav>
-    <?php $url = 'http://localhost/portfolio2k19/dist'; ?>
+    <?php $url = 'http://mauroesposito.be'; ?>
     <a href="./" class="logo desktop"></a>
     <div class="nav__main">
         <a href="<?= $url; ?>" class="<?= ($activePage == 'index') ? 'selected' : ''; ?>">
