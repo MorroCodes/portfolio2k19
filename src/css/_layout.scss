@@ -43,7 +43,17 @@ h2::before{
 h2::after{
     content: "; }";
 }
-
+.blogpost h1{
+    max-width: 800px;
+    font-size: 2em;
+    margin: auto;
+}
+.blogpost h2::before{
+    content: " ";
+}
+.blogpost h2::after{
+    content: " ";
+}
 .cta{
     color: $primaryColor;
     border: 1px solid $primaryColor;

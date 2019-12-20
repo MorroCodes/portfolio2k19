@@ -10,7 +10,7 @@
                     <div data-router-view="work">
                         <h2>ChatApp</h2>
                         <p>
-                            ChatApp is a live chatapplications I developed in collaboration with <a href="https://www.develmode.be/" target="_blank">Develmode</a>.<br>It was built using NodeJS/Express and Primus for WebSockets. ChatApp boasts a simple yet elegant design with nice features like a list of registered users and a secure login.
+                            ChatApp is a live chatapplication I developed in collaboration with <a href="https://www.develmode.be/" target="_blank">Develmode</a>.<br>It was built using NodeJS/Express and Primus for WebSockets. ChatApp boasts a simple yet elegant design with nice features like a list of registered users and a secure login.
                             <img src="../img/chatapp.png" alt="ChatApp">
                             <a class="cta block" target="_blank" href="https://secret-savannah-51030.herokuapp.com/">Visit website</a>
                         </p>

@@ -16,19 +16,32 @@
     <meta name="description" content="Mauro Esposito is a student full-stack web developer based in Geel, Belgium.">
     <meta name="keywords" content="PHP,Geel,HTML,CSS,JavaScript,Laravel,NodeJS,full-stack,web,developer,webdeveloper,websockets">
     <meta name="author" content="Mauro Esposito">
+    <!-- Twitter tags -->
+    <meta name="twitter:domain" content="http://mauroesposito.be/">
+    <meta name="twitter:url" content="http://mauroesposito.be/">
+    <meta name="twitter:site" content="@mauroesposito_">
+    <meta name="twitter:creator" content="@mauroesposito_">
+    <meta name="twitter:image" content="http://mauroesposito.be/img/open_graph_image.png" />
+    <meta name="twitter:description" content="Mauro Esposito is a student full-stack web developer based in Geel, Belgium.">
+
     <!-- Open graph tags voor Facebook etc.-->
     <meta property="og:type" content="website" />
     <meta property="og:url" content="http://mauroesposito.be/" />
     <meta property="og:image" content="http://mauroesposito.be/img/open_graph_image.png" />
     <link href="https://fonts.googleapis.com/css?family=Barlow:300,400,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="http://mauroesposito.be/css/style.css">
+    
+    <link rel="stylesheet" href="/css/style.css">
     <link rel="shortcut icon" type="img/png" href="img/favicon.png"/>
     <?php if ($activePage != 'index'): ?>
     <!-- Titel aanpassen afhankelijk van naar welke pagina er word verwezen -->
     <title><?= ucfirst($activePage); ?> - Mauro Esposito</title>
     <meta property="og:title" content="<?= ucfirst($activePage); ?> - Mauro Esposito" />
+    <meta name="twitter:title" content="<?= ucfirst($activePage); ?> - Mauro Esposito" />
+
     <?php else: ?>
     <title>Mauro Esposito</title>
     <meta property="og:title" content="Mauro Esposito" />
+    <meta name="twitter:title" content="Mauro Esposito" />
+
     <?php endif; ?>
 </head>

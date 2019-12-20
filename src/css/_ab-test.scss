@@ -1,0 +1,9 @@
+@import 'colors';
+.cta-filled{
+    background-color: $primaryColor;
+    color: #3D3D3D;
+}
+.cta-filled:hover{
+    background-color: transparent;
+    color: $primaryColor;
+}
