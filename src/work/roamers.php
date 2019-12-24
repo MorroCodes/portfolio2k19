@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
     <?php require_once '../includes/head.inc.php'; ?>
     <body>

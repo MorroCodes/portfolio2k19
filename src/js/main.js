@@ -29,7 +29,11 @@ H.on('NAVIGATE_IN', ({ to, location }) => {
       });
       if(split[split.length-2] == "work"){
         main.classList.add("work__detail");
-      } else {
+      } else if (split[split.length-2] == "skill" || split[split.length-2] == "blog") {
+        main.classList.add("work__detail");
+        main.classList.add("blogpost");
+      }
+      else {
         main.classList.add(split[split.length-1]);
       }
       // Active link

@@ -43,6 +43,13 @@ h2::before{
 h2::after{
     content: "; }";
 }
+main h3{
+    color: #ccc;
+    max-width: 500px;
+    margin: auto;
+    font-weight: normal;
+    padding: 1em 0;
+}
 .blogpost h1{
     max-width: 800px;
     font-size: 2em;

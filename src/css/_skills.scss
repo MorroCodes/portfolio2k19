@@ -1,0 +1,23 @@
+.contact__flex.skills{
+    justify-content: flex-start;
+    align-items: stretch;
+    flex: none;
+}
+.skills .rank{
+    font-size: 2em;
+    font-weight:bold;
+}
+.contact__flex.skills .contact__item{
+    margin: 15px;
+    padding: 30px 10px;
+    height: 200px;
+}
+.contact__flex.skills a.contact__item{
+    display: block;
+}
+.skills_back_link{
+    display: block;
+    color: white;
+    text-align: left !important;
+    text-decoration: underline;
+}

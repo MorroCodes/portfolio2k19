@@ -13,10 +13,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!-- Meta tags voor SEO -->
-    <meta name="description" content="Mauro Esposito is a student full-stack web developer based in Geel, Belgium.">
+    <meta name="description" content="Mauro Esposito is a student full-stack web developer based in Geel, Belgium. My web development skills include PHP (Laravel), JavaScript (NodeJS) and Content Management systems (WordPress, Drupal, GetSimple)">
     <meta name="keywords" content="PHP,Geel,HTML,CSS,JavaScript,Laravel,NodeJS,full-stack,web,developer,webdeveloper,websockets">
     <meta name="author" content="Mauro Esposito">
     <!-- Twitter tags -->
+    <meta name="twitter:card" content="summary" />
     <meta name="twitter:domain" content="http://mauroesposito.be/">
     <meta name="twitter:url" content="http://mauroesposito.be/">
     <meta name="twitter:site" content="@mauroesposito_">
@@ -28,8 +29,11 @@
     <meta property="og:type" content="website" />
     <meta property="og:url" content="http://mauroesposito.be/" />
     <meta property="og:image" content="http://mauroesposito.be/img/open_graph_image.png" />
+    <!-- canonical tag-->
+    <link rel="canonical" href="http://mauroesposito.be/" />
+    <!-- font inladen-->
     <link href="https://fonts.googleapis.com/css?family=Barlow:300,400,700&display=swap" rel="stylesheet">
-    
+    <!-- Stylesheet inladen -->
     <link rel="stylesheet" href="/css/style.css">
     <link rel="shortcut icon" type="img/png" href="img/favicon.png"/>
     <?php if ($activePage != 'index'): ?>

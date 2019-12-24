@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <?php require_once 'includes/head.inc.php'; ?>
 <body>
@@ -13,14 +14,14 @@
                     <div class="img" style="background: url(<?= $url; ?>/img/pocket_thumb.svg) center center; background-size: cover;">
                     </div>
                     <div class="overlay hover-in">
-                        This is a project that I made in collaboration with 2 fellow students. It is a closed platform on which students with a living wage can earn additional income. 
+                        This is a <h4>web project</h4> that I made in collaboration with 2 fellow students. It is a closed <h4>platform</h4> on which students with a living wage can earn additional income. 
                     </div>
                 </a>
                 <a class="work__item xl" href="<?= $url; ?>/work/roamers">
                     <div class="img" style="background: url(<?= $url; ?>/img/roamers_thumb.svg) center center; background-size: cover;">
                     </div>
                     <div class="overlay hover-in">
-                        Roamers is an adventurous brand that makes hiking more accessible for young people.
+                        Roamers is an adventurous <h4>brand</h4> that makes hiking more accessible for young people.
                     </div>
                 </a>
                 <a class="work__item__link" href="https://github.com/MorroCodes" target="_blank">
@@ -32,7 +33,7 @@
                 <a class="work__item xl" href="<?= $url; ?>/work/chatapp">
                     <div class="img" style="background: url(<?= $url; ?>/img/chatapp_thumb.svg) center center; background-size: cover;"></div>
                     <div class="overlay hover-in">
-                        ChatApp is a live chatapplication built using NodeJS.
+                        <h4>ChatApp</h4> is a <h4>live chatapplication</h4> built using <h4>NodeJS</h4>.
                     </div>
                     </a>
                 <a class="work__item__link" href="https://www.instagram.com/mauroesposito_dev/" target="_blank">
